@@ -55,3 +55,10 @@ h1 {
   margin: 5px !important;
   color:aliceblue;
 }
+
+.pending {
+   padding: 5px !important;
+   background-color: #ffe078 !important;
+   margin: 5px !important;
+   color:aliceblue;
+}
