@@ -46,11 +46,11 @@ h1 {
   background-color:#ffb6ba !important;
 }
 
-.btn-dark {
+.btn-light {
   padding: 5px !important;
-  background-color: #9cddde !important;
+  background-color:#ffb6ba !important;
   margin: 5px !important;
-  color:aliceblue;
+  color: aliceblue;
 }
 
 .pending {
