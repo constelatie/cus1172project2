@@ -1,0 +1,57 @@
+.list-group-item-dark {
+   color: #faf8f8 !important;
+    font-size: 25px !important;
+  background-color: #54dad8 !important;
+}
+
+.list-group-item-light {
+
+   color: #54dad8 !important;
+    font-size: 25px !important;
+  background-color: #fcfbfb !important;
+  
+}
+
+#tasklist li:nth-child(odd) {
+   color: #faf8f8 !important;
+    font-size: 25px !important;
+  background-color: #54dad8 !important;
+}
+
+
+#tasklist li:nth-child(even) {
+   color: #54dad8 !important;
+    font-size: 25px !important;
+  background-color: #fcfbfb !important;
+}
+
+
+body {
+    background-image: url("https://media.istockphoto.com/id/1776562665/vector/colorful-cotton-candy-on-blue-background-sweets-seamless-pattern-vector-cartoon-illustration.jpg?s=612x612&w=0&k=20&c=nCpuvFPUOhnYgj3ZbARRLTKCCbaMD7FLwCPfNOnwJ5Y=")
+
+}
+
+label {
+    font-weight: bold !important;
+    color: rgb(0, 0, 0) !important;
+    padding-bottom: 5px !important;
+}
+
+h1 {
+    font-weight: bold !important; 
+    color: #ffb6ba !important;
+}
+
+.btn-light {
+  padding: 5px !important;
+  background-color:#ffb6ba !important;
+  margin: 5px !important;
+  color: aliceblue;
+}
+
+.btn-dark {
+  padding: 5px !important;
+  background-color: #9cddde !important;
+  margin: 5px !important;
+  color:aliceblue;
+}
