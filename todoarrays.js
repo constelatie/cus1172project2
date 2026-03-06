@@ -3,7 +3,7 @@
                     let task = document.querySelector("#task").value;
                     let taskpriority = document.querySelector("#task-priority").value;
                     const li = document.createElement('li');
-                    let task_title_text = `<span> ${ task }</span><span> ( ${taskpriority} )</span><button class="remove btn btn-dark">Remove</button><button class="complete btn btn-light">Complete</button><button class="pending btn btn-light">In Progress</button>`
+                    let task_title_text = `<span> ${ task }</span><span> ( ${taskpriority} )</span><button class="remove btn btn-light">Remove</button><button class="complete btn btn-light">Complete</button><button class="pending btn btn-light">In Progress</button>`
                     li.innerHTML = task_title_text;
                     li.querySelector(".complete").onclick = function() {
                         completeTask(li);
@@ -45,7 +45,8 @@ function completeTask(li) {
 
 function pendingTask(li) {
   li.style.textDecoration = "underline";
-  li.style.textDecorationColor = "#ff66b2";
+  li.style.textDecorationColor = "c8f3d6";
+  li.style.color = "#ff66b2";
 }
 
 function removeTask (li, index) {
