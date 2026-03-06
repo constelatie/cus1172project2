@@ -3,7 +3,7 @@
                     let task = document.querySelector("#task").value;
                     let taskpriority = document.querySelector("#task-priority").value;
                     const li = document.createElement('li');
-                    let task_title_text = `<span> ${ task }</span><span> ( ${taskpriority} )</span><button class="remove btn btn-dark">Remove</button><button class="complete btn btn-light">Complete</button><button class="pending">In Progress</button>`
+                    let task_title_text = `<span> ${ task }</span><span> ( ${taskpriority} )</span><button class="remove btn btn-dark">Remove</button><button class="complete btn btn-light">Complete</button><button class="pending btn btn-light">In Progress</button>`
                     li.innerHTML = task_title_text;
                     li.querySelector(".complete").onclick = function() {
                         completeTask(li);
