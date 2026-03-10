@@ -42,10 +42,6 @@ h1 {
     color: #ffb6ba !important;
 }
 
-.remove {
-  background-color:#89CFF0 !important;
-}
-
 .btn-light {
   padding: 5px !important;
   background-color:#ffb6ba !important;
@@ -55,4 +51,8 @@ h1 {
 
 .pending {
    background-color: #ffe078 !important;
+}
+
+.remove {
+  background-color: #89CFF0 !important;
 }
