@@ -16,7 +16,7 @@
                   const yes = "yes";
                   const no = "no";
                   li.querySelector(".start").onclick = function() {
-                    if(taskstatus.value = yes)
+                    if(taskstatus.value === yes)
                     {
                       addTask(taskItem);
                       alreadyPending(li);
