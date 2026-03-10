@@ -2,6 +2,7 @@
                 document.querySelector('#addingtasks').onsubmit = function() {
                     let task = document.querySelector("#task").value;
                     let taskpriority = document.querySelector("#task-priority").value;
+                    let taskstatus = document.querySelector("#yes").value;
                     const li = document.createElement('li');
                     let task_title_text = `<span> ${ task }</span><span> ( ${taskpriority} )</span><button class="remove btn btn-light">Remove</button><button class="complete btn btn-light">Complete</button><button class="pending btn btn-light">In Progress</button>`
                     li.innerHTML = task_title_text;
@@ -47,6 +48,10 @@ function pendingTask(li) {
   li.style.textDecoration = "underline";
   li.style.textDecorationColor = "c8f3d6";
   li.style.color = "#ff66b2";
+}
+
+function alreadyPending(li) {
+  li.style.textDecoration = "italic";
 }
 
 function removeTask (li, index) {
