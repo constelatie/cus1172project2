@@ -17,6 +17,7 @@
                     if(taskstatus.value === yes)
                     {
                       alreadyPending(li);
+                      console.log("work);
                     }
           
                     let index = taskArray.length - 1;
