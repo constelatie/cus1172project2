@@ -13,19 +13,12 @@
                   li.querySelector(".pending").onclick = function() {
                     pendingTask(li);
                   }
-                  const yes = "yes";
-                  const no = "no";
-                  li.querySelector(".start").onclick = function() {
+                  
                     if(taskstatus.value === yes)
                     {
-                      addTask(taskItem);
                       alreadyPending(li);
                     }
-                    else
-                    {
-                      addTask(taskItem);
-                    }
-                  }
+          
                     let index = taskArray.length - 1;
                     li.querySelector(".remove").onclick = function() {
                         removeTask(li, index);
@@ -65,6 +58,7 @@ function pendingTask(li) {
 
 function alreadyPending(li) {
   li.style.textDecoration = "italic";
+  li.style.fontStyle = "italic";
 }
 
 function removeTask (li, index) {
