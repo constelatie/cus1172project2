@@ -57,7 +57,6 @@ function pendingTask(li) {
 }
 
 function alreadyPending(li) {
-  li.style.textDecoration = "italic";
   li.style.fontStyle = "italic";
 }
 
