@@ -14,7 +14,7 @@
                     pendingTask(li);
                   }
                   
-                    if(taskstatus.value === yes)
+                    if(taskstatus === yes)
                     {
                       alreadyPending(li);
                       console.log("work");
