@@ -13,6 +13,8 @@
                   li.querySelector(".pending").onclick = function() {
                     pendingTask(li);
                   }
+
+                  const yes = "yes";
                   
                     if(taskstatus === yes)
                     {
